@@ -1,5 +1,5 @@
 # selchangechecker
-Keep track CLIPBOARD/PRIMARY/SECONDARY selections and run `callback` if it
+Keep track CLIPBOARD/PRIMARY/SECONDARY selections changes and run `callback` if it
 occurs.
 
 All code have been imported from [autocutsel][] except the one line
