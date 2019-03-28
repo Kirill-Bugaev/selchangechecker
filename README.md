@@ -2,7 +2,7 @@
 Keep track CLIPBOARD/PRIMARY/SECONDARY selections changes and run `callback` if it
 occurs.
 
-All code have been imported from [autocutsel][] except the one line
+All code have been imported from [autocutsel][] except one line
 ```c
 system(options.callback_path);
 ```
