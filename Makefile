@@ -23,3 +23,11 @@ selchangechecker: $(OBJ)
 	
 clean:
 	rm -f selchangechecker $(OBJ)
+
+install: selchangechecker
+	mkdir -p $(DESTDIR)$(PREFIX)/bin
+	cp -f selchangechecker $(DESTDIR)$(PREFIX)/bin
+	chmod 755 $(DESTDIR)$(PREFIX)/bin/selchangechecker
+
+uninstall:
+	rm -f $(DESTDIR)$(PREFIX)/bin/selchangechecker
